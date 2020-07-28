@@ -1,6 +1,7 @@
 new Vue({
     el: 'main',
     data: {
+        anio: new Date().getFullYear(),
         newTask: {
             title: "",
             description: "",
